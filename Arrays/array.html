@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<h1> JavaScript Arrays</h1>
+<p id="demo"></p>
+<script>
+const studentArray = ["Evan", "Manali", "Tapati", "Peter"];
+let text = "<ul>";
+for (let i = 0; i<studentArray.length; i++){
+text += "<li>" + studentArray[i] + "</li>";
+}
+text += "</ul>"
+document.getElementById("demo").innerHTML=text;
+</script>
+</html>

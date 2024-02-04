@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1>HTML events with Javascript code </h1>
+    <h2 id="demo">"It \'s a escape characters"</h2>
+    <p id="example"></p>
+    <!--onclick is event attribute 
+    after = sign the code is called Java script code-->
+    <!--<button onclick="document.getElementById('example').innerHTML=Date()">This is click event raised by user</button>-->
+    <button onclick="this.innerHTML=Date()">
+      This is click event raised by user
+    </button>
+    <script>
+      let text = "It \'s a escape characters";
+      document.getElementById("demo").innerHTML=text;
+    </script>
+
+  </body>
+</html>
