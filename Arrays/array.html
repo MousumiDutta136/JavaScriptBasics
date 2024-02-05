@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+  <body>
 <h1> JavaScript Arrays</h1>
 <p id="demo"></p>
 <script>
 const studentArray = ["Evan", "Manali", "Tapati", "Peter"];
+studentArray.push("Mira");
 let text = "<ul>";
 for (let i = 0; i<studentArray.length; i++){
 text += "<li>" + studentArray[i] + "</li>";
@@ -11,4 +13,21 @@ text += "<li>" + studentArray[i] + "</li>";
 text += "</ul>"
 document.getElementById("demo").innerHTML=text;
 </script>
+
+<h1>JavaScript Arrays</h1>
+<h2>The find() Method</h2>
+
+<p id="demo1"></p>
+
+<script>
+const numbers = [4, 9, 19, 25, 29];
+let first = numbers.find(myFunction);
+
+document.getElementById("demo1").innerHTML = "First number over 18 is " + first;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+</script>
+</body>
 </html>
