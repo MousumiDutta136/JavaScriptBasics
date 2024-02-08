@@ -17,3 +17,10 @@ person = {
   name:'Mithila'
 }
 sayHello.call(person,"Hello");
+
+//apply
+sayHello.apply(person,["Hi"])
+
+//bind
+let greetPerson = sayHello.bind(person);
+greetPerson("Hello")
