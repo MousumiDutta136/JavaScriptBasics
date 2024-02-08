@@ -37,4 +37,13 @@ for(let i=points.length -1; i>0;i--){
   points[j] = k;
   console.log(points[i]);
 }
+//
+const letters = ["a","x","b","y","c"]
+//delete elements in numbers using start index 2 is start index, 3 is the number of element 
+//letters.splice(2,3);
+let deleted = letters.splice(1,1,"v","m")
+console.log(letters)
+console.log(deleted);
+
+
 

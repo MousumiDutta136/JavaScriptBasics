@@ -1,0 +1,16 @@
+let myString = "123";
+let myNUmber = 123;
+let myBoolean = true;
+let myValue = null;
+console.log(myString + myNUmber);
+console.log(myString + myBoolean);
+console.log(myString + myValue);
+console.log('----------------------');
+console.log(myBoolean + myNUmber);
+console.log(myValue + myNUmber);
+console.log('----------------------');
+console.log(myBoolean + myValue);
+console.log('----------------------');
+console.log(myString == myNUmber);
+console.log(myNUmber == myString);
+console.log(myBoolean == 1);
