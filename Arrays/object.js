@@ -27,3 +27,11 @@ Object.keys(person).forEach((key)=>{
 Object.values(person).forEach((val)=>{
 console.log(val);
 })
+
+// if property exists
+//1.using in operator
+console.log("name" in person);
+//2.using hasOwnProperty
+console.log(person.hasOwnProperty("name"));
+//3.comparing with undefined
+console.log(person.name !== "name");
