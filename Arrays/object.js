@@ -34,4 +34,4 @@ console.log("name" in person);
 //2.using hasOwnProperty
 console.log(person.hasOwnProperty("name"));
 //3.comparing with undefined
-console.log(person.name !== "name");
+console.log(person.name !== undefined);
